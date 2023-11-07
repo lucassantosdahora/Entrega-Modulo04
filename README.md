@@ -6,8 +6,8 @@ O Sistema de Cadastro de Destinos da Agência Viagens.com é uma aplicação web
 Tecnologias Utilizadas
 Java
 Servlets
-JSP (JavaServer Pages)
-MySQL (ou outro banco de dados de sua escolha)
+JSP 
+MySQL 
 HTML e CSS
 Funcionalidades
 O sistema oferece as seguintes funcionalidades:
