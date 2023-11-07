@@ -1,0 +1,78 @@
+@import url(/CSS/styles.css);
+
+
+.contentor {
+    background-color: var(--color-secundaria);
+    min-height: 180vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.main {
+    background-image: url(../IMG/fundo-plano-do-quadro-do-aviao-de-viagem.jpg);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+.formulario {
+    width: 70%;
+    max-width: 60%;
+    /* Define uma largura máxima para evitar que fique muito largo */
+    height: auto;
+    /* Ajusta a altura automaticamente ao conteúdo */
+    background-color: #004bad97;
+    /* Uma cor de fundo mais clara */
+    border-radius: 15px;
+    margin: 0 auto;
+    /* Centraliza o formulário na tela horizontalmente */
+    padding: 20px;
+    /* Adiciona espaço interno ao formulário */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    /* Adiciona uma sombra sutil */
+}
+.title-form{
+  color: var(--color-secundaria);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  width:125px;
+  text-align: center;
+}
+.form-group {
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+.form-group label {
+    font-weight: bold;
+    color: var(--color-secundaria);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    border: 3px solid var(--color-detalhes);
+    border-radius: 6px;
+    transition: background-color 0.5s ease;
+}
+.form-control:focus {
+    outline:#00742b;
+    border: 1px solid var(--color-detalhes);
+    background-color:  var(--color-detalhes);
+    color: var(--color-secundaria);
+}
+
+.btn {
+    background-color: #00742b;
+    color: var(--color-secundaria);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: 0.8s;
+}
+
+.btn:hover {
+    background-color: #00742bc6;
+}

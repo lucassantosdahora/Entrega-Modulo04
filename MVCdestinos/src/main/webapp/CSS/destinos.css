@@ -1,0 +1,94 @@
+@import url(/CSS/styles.css);
+
+
+.contentor {
+    background-color: var(--color-secundaria);
+    min-height: 170vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.main {
+    background-image: url(../IMG/fundo-plano-do-quadro-do-aviao-de-viagem.jpg);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+.lista-destinos {
+    max-width: 100%;
+    background-color: #004bad97;
+    border-radius: 15px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    overflow-x: auto;
+}
+
+.table {
+    margin-top: 1rem;
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+}
+
+thead {
+    background-color: var(--color-detalhes);
+    color: #fff;
+}
+
+td, th {
+    padding: 10px;
+    border: 1px solid var(--color-detalhes);
+    color: var(--color-secundaria);
+}
+
+.btn-container {
+    display: flex;
+    gap: 10px;
+}
+
+.btn {
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 3px;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+}
+
+.btn-success {
+    background-color: #28a745;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+}
+.btn-restore {
+    background-color: rgb(194, 188, 5);
+}
+
+/* Estilos para tornar as colunas da tabela responsivas */
+th, td {
+    text-align: left;
+    word-wrap: break-word; 
+}
+@media (max-width: 540px) {
+    .lista-destinos {
+        padding: 10px; 
+    }
+    .table {
+        font-size: 14px; 
+    }
+    th, td {
+        padding: 5px; 
+    }
+    .btn-container {
+        flex-direction: column;
+    }
+    .btn {
+        padding: 5px 10px;
+        margin-top: 5px; 
+    }
+}
+

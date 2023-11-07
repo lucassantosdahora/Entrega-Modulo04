@@ -1,0 +1,31 @@
+@import url(/CSS/styles.css);
+
+
+.contentor {
+    background-color: var(--color-secundaria);
+    min-height: 120vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.main {
+    background-image: url(../IMG/fundo-plano-do-quadro-do-aviao-de-viagem.jpg);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+.texto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #004bad97 ;
+    color: var(--color-secundaria);
+    width: 80%;
+    height: 40vh;
+    padding: 10px;
+    font-size: var(--font-size);
+    font-family: var(--font-especial);
+}
