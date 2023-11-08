@@ -19,18 +19,12 @@
 .formulario {
     width: 70%;
     max-width: 60%;
-    /* Define uma largura máxima para evitar que fique muito largo */
     height: auto;
-    /* Ajusta a altura automaticamente ao conteúdo */
     background-color: #004bad97;
-    /* Uma cor de fundo mais clara */
     border-radius: 15px;
     margin: 0 auto;
-    /* Centraliza o formulário na tela horizontalmente */
     padding: 20px;
-    /* Adiciona espaço interno ao formulário */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    /* Adiciona uma sombra sutil */
 }
 .title-form{
   color: var(--color-secundaria);

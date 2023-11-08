@@ -55,7 +55,7 @@ public class DestinoDAO {
 	        ResultSet res = stmt.executeQuery();
 	        
 	        if (res.next()) {
-	            destinos = new Destino();  // Corrigido para atribuir a destinos
+	            destinos = new Destino();  
 	            destinos.setId(res.getInt("id"));
 	            destinos.setNome(res.getString("nome"));
 	            destinos.setPais(res.getString("pais"));
@@ -64,7 +64,7 @@ public class DestinoDAO {
 	        e.printStackTrace();
 	    }
 	    
-	    return destinos;  // Agora retorna o objeto destinos corretamente
+	    return destinos;  
 
 	}
 	
@@ -100,7 +100,7 @@ public class DestinoDAO {
 	    try (PreparedStatement stmt = connection.prepareStatement(sql)) {
 	        stmt.setString(1, destino.getNome());
 	        stmt.setString(2, destino.getPais());
-	        stmt.setInt(3, destino.getId()); // Definir o valor do ID
+	        stmt.setInt(3, destino.getId()); 
 	        
 	        stmt.executeUpdate();
 	    } catch (SQLException e) {
